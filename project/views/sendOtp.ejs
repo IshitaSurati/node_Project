@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Send OTP</title>
+</head>
+<body>
+  <h1>Send OTP</h1>
+  <form action="/user/otp" method="POST">
+    <input type="email" name="email" placeholder="Enter your email" required />
+    <button type="submit">Send OTP</button>
+  </form>
+  <p><%= error %></p>
+</body>
+</html>
